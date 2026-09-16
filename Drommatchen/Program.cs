@@ -1,10 +1,13 @@
-// TODO: Skapa minst 2 spelare
-// Spelare spelare1 = new Spelare("Namn", nummer, "Position");
-// Spelare spelare2 = new Spelare(...);
 
-// TODO: Skapa 1 match
-// Match match = new Match("Hemmalag", "Bortalag", "Datum");
+Spelare spelare1 = new Spelare("zlatan",10,"forward");
+Spelare spelare2 = new Spelare("Messi",10,"forward");
 
-// TODO: Anropa match.Presentera()
+Match Match1 = new Match("IFK","Gais", "2026-09-15");
 
-// TODO: Anropa match.AnnounceraMålskytt() med båda spelarna
+Match1.Presentera();
+Match1.AnnounceraMålskytt(spelare1);
+Match1.AnnounceraMålskytt(spelare2);
+Match1.AnnounceraMålskytt(spelare1);
+Match1.AnnounceraMålskytt(spelare1);
+
+Match1.MVP();
