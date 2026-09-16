@@ -28,6 +28,8 @@ public class Match
         private set { _datum = value; }
     }
 
+    // Pluspoäng om ni kommer på hur man kan minska ner koden med properties :)
+
     // Konstruktor
     public Match(string hemmalag, string bortalag, string datum)
     {
