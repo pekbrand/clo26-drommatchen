@@ -33,9 +33,9 @@ public class Match
     // Konstruktor
     public Match(string hemmalag, string bortalag, string datum)
     {
-        this._hemmalag = hemmalag;
-        this._bortalag = bortalag;
-        this._datum= datum;
+        _hemmalag = hemmalag;
+        _bortalag = bortalag;
+        _datum= datum;
     }
 
 
@@ -46,19 +46,18 @@ public class Match
     {
         // TODO
         Console.WriteLine(
-            $"Hej och Välkommnar till dagens match\n Den {_datum} Spelar {_hemmalag} mot {_bortalag}");
+            $"Hej och Välkommna till dagens match\nMellan {_hemmalag} och {_bortalag} ({_datum})");
     }
 
     // Metod 2: skriv ut spelarens namn, nummer och position
     public void AnnounceraMålskytt(Spelare spelare)
     {
-        // TODO
         Console.WriteLine(
-            $"Nr:{spelare.__nummer} - {spelare.__namn}({spelare.__possition}) Gör mål!");
+            $"Nr:{spelare.Number} - {spelare.Name}({spelare.Position}) Gör mål!");
             if (goal_static.ContainsKey(spelare))
                {
                     goal_static[spelare]++;
-                    Console.WriteLine($"{spelare.__namn} gör mål nr:{goal_static[spelare]}");
+                    Console.WriteLine($"{spelare.Name} gör mål nr:{goal_static[spelare]}");
                 }
             else
             {
@@ -78,13 +77,13 @@ public class Match
                 if (goal < item.Value)
                 { 
                     goal = item.Value;
-                    mvp = item.Key.__namn;
+                    mvp = item.Key.Name;
                     mvp_list.Clear();
-                    mvp_list.Add((item.Key.__namn, item.Value));
+                    mvp_list.Add((item.Key.Name, item.Value));
                 }
                 else if (goal == item.Value)
                 {
-                    mvp_list.Add((item.Key.__namn, item.Value));
+                    mvp_list.Add((item.Key.Name, item.Value));
                 }
             }
         if(goal == 0)
