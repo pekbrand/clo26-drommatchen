@@ -2,6 +2,12 @@
 
 > Beskriv ert spel med en mening — vilka spelare, vilket lag, vad händer?
 
+I Min match finns det bara två spelare,
+Zlatan och Messi.
+Zlatan gör 3 mål och messi gör 1 mål.
+
+Matchen är mella IFK & Gais, matchen spelar 2026-09-15.
+
 ---
 
 ## Grupp

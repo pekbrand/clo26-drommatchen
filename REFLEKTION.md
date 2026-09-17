@@ -17,7 +17,13 @@
 *Var fastnade du? Vad tog längre tid än du trodde — och hur kom du vidare?*
 
 > 
+Jag fastnade mest på att skapa upp klasserna, just denna är privat men den publika varibeln skall retunera den privata.
+blev att jag bollade mycket med chatgpt för att förstå detta bättre.
 
+Sen missade jag en del ";" bakom många "Console.WriteLine"
+och fick även mycket fel för jag missat storbokstäver. Detta är inget nytt egentligen men är lite ovan vid syntaxen.
+
+jag fastnade också på att jag behövde dubbla paranteser på tuple.
 ---
 
 ## Hur fungerade samarbetet i gruppen?
@@ -32,5 +38,9 @@
 ## Om du fick göra om det — vad hade du gjort annorlunda?
 
 *Tänk på din lösning, din struktur, eller hur ni jobbade. Vad skulle du ändra?*
+
+Jag hade nog inte ändrat på något i koden, men jag hade ritar ut koden först, för att inte hoppas så mycket fram och tillbaka.
+    nu hittade man oj tänk om det finns två stycken MVPS.
+då fick jag hoppa tillbaka och fundera ut en ny logik och hade jag tänkt på alla möjligautfall direkt hade det varit lättare att bli mer effektiv.
 
 > 
